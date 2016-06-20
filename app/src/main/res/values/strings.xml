@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ready4S</string>
+    <string name="main_activity_label">Zlokalizuj miasto</string>
+    <string name="city_details_activity_label">Szczegóły</string>
+
+    <string name="enter_city_name">Podaj nazwę miasta</string>
+    <string name="city_name_required">Nazwa miasta jest wymagana</string>
+    <string name="wrong_city_name">Nazwa miasta jest niepoprawna</string>
+    <string name="check_internet_connection">Sprawdź połączenie z Internetem i spróbuj ponownie</string>
+    <string name="operation_failed">Operacja nie powiodła się</string>
+
+    <string name="back_button_text">Wróc</string>
+
+    <string name="city">Miejscowość:</string>
+    <string name="community">Gmina:</string>
+    <string name="county">Powiat:</string>
+    <string name="voivodeship">Województwo:</string>
+    <string name="country">Kraj</string>
+</resources>

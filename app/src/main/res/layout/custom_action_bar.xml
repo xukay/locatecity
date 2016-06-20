@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView android:id="@+id/walking_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_walking"/>
+
+    <TextView android:id="@+id/action_bar_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/walking_icon"
+        android:layout_centerVertical="true"
+        android:layout_alignBaseline="@id/walking_icon"
+        android:layout_margin="5dp"
+        android:text="@string/main_activity_label"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
